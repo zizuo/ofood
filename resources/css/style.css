@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------- */
-/*BASIC SETUP*/
+/* BASIC SETUP */
 /* ----------------------------------------------------------- */
 
 * {
@@ -33,7 +33,7 @@ html {
 }
 
 /* ----------------------------------------------------------- */
-/*REUSABLE COMPONENTS*/
+/* REUSABLE COMPONENTS */
 /* ----------------------------------------------------------- */
 
 .row {
@@ -192,7 +192,7 @@ input[type=submit]:active {
 
 
 /* ----------------------------------------------------------- */
-/*HEADER*/
+/* HEADER */
 /* ----------------------------------------------------------- */
 
 header {
@@ -248,7 +248,7 @@ header {
 
 
 /* ----------------------------------------------------------- */
-/*FEATURES*/
+/* FEATURES */
 /* ----------------------------------------------------------- */
 
 .section-features .long-copy {
@@ -257,7 +257,7 @@ header {
 
 
 /* ----------------------------------------------------------- */
-/*MEALS*/
+/* MEALS */
 /* ----------------------------------------------------------- */
 
 .section-meals {
@@ -413,7 +413,7 @@ cite img {
 
 
 /* ----------------------------------------------------------- */
-/* TESTIMONIALS */
+/* SIGN UP - PLANS */
 /* ----------------------------------------------------------- */
 
 .section-plans {
@@ -494,4 +494,85 @@ textarea {
 
 input[type=checkbox] {
     margin: 10px 5px 10px 0;
+}
+
+
+/* ----------------------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
+    transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+}
+
+.ion-logo-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-logo-instagram:hover {
+    color: #517fa4;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
 }
